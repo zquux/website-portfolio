@@ -6,7 +6,7 @@ import {
   slideInFromLeft,
   slideInFromRight,
   slideInFromTop,
-} from "@/app/utils/motion";
+} from "@/utils/motion";
 import { SparklesIcon } from "@heroicons/react/16/solid";
 import Image from "next/image";
 
