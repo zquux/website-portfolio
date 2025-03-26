@@ -23,6 +23,11 @@ const Projects = () => {
           title="Space themed website"
           description="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit sed laboriosam quaerat consequatur eius autem nihil, perferendis minima. Totam, incidunt odit culpa quis reiciendis numquam deleniti non quo aperiam nesciunt."
         />
+        <ProjectCard
+          src="/NextWebsite.png"
+          title="Modern Next.js Portfolio"
+          description="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit sed laboriosam quaerat consequatur eius autem nihil, perferendis minima. Totam, incidunt odit culpa quis reiciendis numquam deleniti non quo aperiam nesciunt."
+        />
       </div>
     </div>
   );

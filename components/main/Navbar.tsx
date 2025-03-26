@@ -1,5 +1,6 @@
 import { Socials } from "@/constants";
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 
 const Navbar = () => {
@@ -7,22 +8,13 @@ const Navbar = () => {
     <div className="w-full h-[65px] fixed top-0 shadow-lg shadow-[#2A0E61]/50 bg-[#03001417] backdrop-blur-md z-50 px-[15px]">
       <div className="w-full h-full flex flex-row items-center justify-between m-auto px-[10px]">
         <a href="" className="h-auto w-auto flex flex-row items-center">
-          <Image
-            src="/av.webp"
-            alt="logo"
-            width={30}
-            height={30}
-            className="cursor-pointer hover:animate-slowspin invert"
-          />
           <span className="font-bold ml-[10px] hidden md:block text-gray-300">
-            Vladyslav Vovk
+            <Link href="/">Vladyslav Vovk</Link>
           </span>
         </a>
         <div className="w-[500px] h-full flex flex-row items-center justify-between md:mr-20">
           <div className="flex items-center justify-between w-full border border-[#7042f861] bg-[#0300145e] my-[10px] px-[50px] py-3 rounded-full text-gray-200">
-            <a href="#about-me" className="cursor-pointer">
-              About me
-            </a>
+            <Link href="/About">About me</Link>
             <a href="#skills" className="cursor-pointer">
               Skills
             </a>
