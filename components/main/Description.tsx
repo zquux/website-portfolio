@@ -29,11 +29,11 @@ const Description = () => {
               <h2 className="text-white text-lg">About me</h2>
             </div>
             <p className="text-white max-w-[500px] pt-10">
-              Hi! I'm Vladyslav Vovk, a second-year Software Engineering student
-              at Munster Technological University. I love working with code and
-              constantly push myself to explore new technologies and improve my
-              skills. I take on small freelance projects to get practical
-              experience and build up my portfolio.
+              Hi! I&apos;m Vladyslav Vovk, a second-year Software Engineering
+              student at Munster Technological University. I love working with
+              code and constantly push myself to explore new technologies and
+              improve my skills. I take on small freelance projects to get
+              practical experience and build up my portfolio.
             </p>
           </div>
         </motion.div>
