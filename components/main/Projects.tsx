@@ -9,24 +9,24 @@ const Projects = () => {
       </h1>
       <div className="h-full w-full flex flex-col md:flex-row gap-10 px-10">
         <ProjectCard
-          src="/NextWebsite.png"
+          src="/spaceweb.png"
           title="Modern Next.js Portfolio"
-          description="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit sed laboriosam quaerat consequatur eius autem nihil, perferendis minima. Totam, incidunt odit culpa quis reiciendis numquam deleniti non quo aperiam nesciunt."
+          description="A space-themed portfolio website built with Next.js, TypeScript, and Tailwind CSS to showcase projects and frontend development skills."
         />
         <ProjectCard
-          src="/CardImage.png"
-          title="Interactive website cards"
-          description="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit sed laboriosam quaerat consequatur eius autem nihil, perferendis minima. Totam, incidunt odit culpa quis reiciendis numquam deleniti non quo aperiam nesciunt."
+          src="/toplex_1.png"
+          title="Todo dashboard - Toplex"
+          description="A full-stack Todo dashboard with authentication, drag-and-drop features, and a calendar view built using React, Node.js, and MongoDB."
         />
         <ProjectCard
-          src="/SpaceWebsite.png"
-          title="Space themed website"
-          description="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit sed laboriosam quaerat consequatur eius autem nihil, perferendis minima. Totam, incidunt odit culpa quis reiciendis numquam deleniti non quo aperiam nesciunt."
+          src="/xchange_1.png"
+          title="Currency Exchange telegram bot"
+          description="A Python-based Telegram bot providing real-time currency exchange rates and leveraging APIs for accurate data.."
         />
         <ProjectCard
-          src="/NextWebsite.png"
-          title="Modern Next.js Portfolio"
-          description="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reprehenderit sed laboriosam quaerat consequatur eius autem nihil, perferendis minima. Totam, incidunt odit culpa quis reiciendis numquam deleniti non quo aperiam nesciunt."
+          src="/fedsmedia_1.png"
+          title="Videographing website"
+          description="A responsive website for a German videography company built with HTML, CSS, and JavaScript to showcase their services."
         />
       </div>
     </div>

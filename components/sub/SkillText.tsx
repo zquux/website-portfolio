@@ -31,7 +31,7 @@ const SkillText = () => {
         variants={slideInFromRight(0.5)}
         className="cursive text-[20px] text-gray-200 mb-10 mt-[10px] text-center"
       >
-        Never miss a task deadline or idea
+        Some logos are shown here just for aesthetic purposes.
       </motion.div>
     </div>
   );
