@@ -1,3 +1,5 @@
+"use client";
+
 import ProjectCardBig from "@/components/main/ProjectCardBig";
 import {
   imagesForEXchange,
