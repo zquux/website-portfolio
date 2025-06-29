@@ -24,9 +24,9 @@ const Projects = () => {
           description="A Python-based Telegram bot providing real-time currency exchange rates and leveraging APIs for accurate data.."
         />
         <ProjectCard
-          src="/fedsmedia_1.png"
-          title="Videographing website"
-          description="A responsive website for a German videography company built with HTML, CSS, and JavaScript to showcase their services."
+          src="/freelance_1.png"
+          title="Freelance websites"
+          description="Developed responsive websites for various freelance clients, including small businesses and startups."
         />
       </div>
     </div>

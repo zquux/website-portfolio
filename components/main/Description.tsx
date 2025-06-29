@@ -30,11 +30,11 @@ const Description = () => {
               <h2 className="text-white text-lg">About me</h2>
             </div>
             <p className="text-white pt-6 sm:pt-10 text-sm sm:text-base">
-              Hi! I&apos;m Vladyslav Vovk, a second-year Software Engineering
-              student at Munster Technological University. I love working with
-              code and constantly push myself to explore new technologies and
-              improve my skills. I take on small freelance projects to get
-              practical experience and build up my portfolio.
+              Hi! I&apos;m Vladyslav Vovk, a Software Engineering student at
+              MTU, Ireland. I love working with code and constantly push myself
+              to explore new technologies and improve my skills. I take on small
+              freelance projects to get practical experience and build up my
+              portfolio.
             </p>
           </div>
         </motion.div>
@@ -55,9 +55,10 @@ const Description = () => {
               Tailwind, JavaScript, and TypeScript, with hands-on experience
               using frameworks like React and NextJS. Experienced in building
               full-stack applications using NodeJS and Express, and proficient
-              with databases such as MongoDB. Comfortable with version control
-              using Git and GitHub. Follows object-oriented principles and SOLID
-              design, with understanding of basic Linux.
+              with databases such as MongoDB and Postgres with ORM's like
+              Prisma. Comfortable with version control using Git and GitHub.
+              Follows object-oriented principles and SOLID design, with
+              understanding of basic Linux.
             </p>
           </div>
         </motion.div>

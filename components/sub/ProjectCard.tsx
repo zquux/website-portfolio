@@ -21,7 +21,7 @@ const ProjectCard = ({ src, title, description }: Props) => {
       />
       <div className="absolute inset-0 bg-black opacity-30 transition-opacity duration-300 group-hover:opacity-50"></div>
       <div className="absolute inset-0 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300 z-50">
-        <Link href="/Projects">
+        <Link href="/projects">
           <button className="px-6 py-2 bg-white text-black font-semibold rounded-lg cursor-pointer">
             Learn More
           </button>
