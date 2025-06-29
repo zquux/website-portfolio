@@ -1,5 +1,3 @@
-"use client";
-
 import Description from "@/components/main/Description";
 import React from "react";
 
