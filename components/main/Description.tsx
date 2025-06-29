@@ -55,7 +55,7 @@ const Description = () => {
               Tailwind, JavaScript, and TypeScript, with hands-on experience
               using frameworks like React and NextJS. Experienced in building
               full-stack applications using NodeJS and Express, and proficient
-              with databases such as MongoDB and Postgres with ORM's like
+              with databases such as MongoDB and Postgres with ORM&apos;s like
               Prisma. Comfortable with version control using Git and GitHub.
               Follows object-oriented principles and SOLID design, with
               understanding of basic Linux.
