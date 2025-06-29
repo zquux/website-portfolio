@@ -29,7 +29,7 @@ const SkillText = () => {
       </motion.div>
       <motion.div
         variants={slideInFromRight(0.5)}
-        className="cursive text-[20px] text-gray-200 mb-10 mt-[10px] text-center"
+        className="cursive md:text-[20px] text-gray-200 mb-10 mx-[10px] text-center"
       >
         Some logos are shown here just for aesthetic purposes.
       </motion.div>

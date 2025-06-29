@@ -2,6 +2,7 @@ import { Socials } from "@/constants";
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
+import { House } from "lucide-react";
 
 const Navbar = () => {
   return (
@@ -10,13 +11,16 @@ const Navbar = () => {
         <span className="font-bold ml-[10px] hidden md:block text-gray-300">
           <Link href="/">Vladyslav Vovk</Link>
         </span>
-        <div className="w-[500px] h-full flex flex-row items-center justify-between md:mr-20">
+        <div className="w-[350px] h-full flex flex-row items-center justify-between md:mr-20">
           <div className="flex items-center justify-between w-full border border-[#7042f861] bg-[#0300145e] my-[10px] px-[50px] py-3 rounded-full text-gray-200">
-            <Link href="/About">About me</Link>
-            <Link href="/Projects">Projects</Link>
+            <Link href="/about">About me</Link>
+            <Link href="/">
+              <House className="sm:block md:hidden size-5" />
+            </Link>
+            <Link href="/projects">Projects</Link>
           </div>
         </div>
-        <div className="flex flex-row gap-5">
+        <div className="hidden md:flex flex-row gap-5">
           {Socials.map((social) => (
             <Link href={social.link} key={social.name}>
               <Image

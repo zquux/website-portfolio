@@ -264,8 +264,9 @@ export const imagesForEXchange = [
   "/xchange_4.png",
 ];
 
-export const imagesForFedsmedia = [
-  "/fedsmedia_1.png",
-  "/fedsmedia_2.png",
-  "/fedsmedia_3.png",
+export const imagesForFreelance = [
+  "/freelance_1.png",
+  "/freelance_2.png",
+  "/freelance_3.png",
+  "/freelance_4.png",
 ];

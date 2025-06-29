@@ -46,14 +46,14 @@ const Encryption = () => {
           Secure your data with end-to-end encryption
         </div>
       </div>
-      <div className="w-full flex items-center justify-center absolute">
+      <div className="w-full h-full flex items-center justify-center absolute borde">
         <video
           loop
           muted
           autoPlay
           playsInline
           preload="false"
-          className="w-full h-auto"
+          className="w-full h-full object-cover"
           src="/encryption.webm"
         />
       </div>
